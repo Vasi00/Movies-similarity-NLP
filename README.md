@@ -1,5 +1,5 @@
 # Movies-similarity-NLP
-In this NLP project, I quantified the similarity of movies based on their plot summaries available on IMDb and Wikipedia, then separated them into groups aka clusters.
-Finally I have created a dendrogram to represent how closely the movies are related to each other.
+In this NLP project, the aim is to quantify the similarity of movies based on their plot summaries available on IMDb and Wikipedia, and cluster them in different groups accordingly. I plotted/created a dendrogram to show which movies are closely related to each other.
 
-Processes: Tokenization, Stemming, Create Tfidfvector, Fit and Transform text to vector created, kmeans clustering, Dendogram
+Dataset used is Datacamp Project, which consists of plot summaries of 100 movies from Wikipedia and IMDb.
+Processes: Tokenization, Stemming, Creating Tfidfvector, Fitting and Transforming text to vector created, kmeans clustering, Dendogram
